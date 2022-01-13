@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Entertaining Math</string>
+    <string name="image_division" translatable="false">Division</string>
+    <string name="image_subtraction" translatable="false">Subtraction</string>
+    <string name="image_addition" translatable="false">Addition</string>
+    <string name="image_multiplication" translatable="false">Multiplication</string>
+    <string name="image_arrow_green" translatable="false">Arrow_green</string>
+    <string name="image_arrow_red" translatable="false">Arrow_red</string>
+    <string name="image_score" translatable="false">Score</string>
+    <string name="image_life" translatable="false">Life</string>
+    <string name="image_time" translatable="false">Time</string>
+    <string name="text_view_zero" translatable="false">0</string>
+    <string name="text_view_three" translatable="false">3</string>
+    <string name="text_view_sixty" translatable="false">60</string>
+    <string name="text_view_question" translatable="false">TextView</string>
+    <string name="edit_text_answer">Write your answer</string>
+    <string name="edit_text_answer_3">Write your answer</string>
+    <string name="button_question">NEXT QUESTION</string>
+    <string name="button_ok" translatable="false">OK</string>
+    <string name="image_score2" translatable="false">Score</string>
+    <string name="image_time2" translatable="false">Time</string>
+    <string name="image_life2" translatable="false">Life</string>
+    <string name="text_view_three_2" translatable="false">3</string>
+    <string name="text_view_sixty_2" translatable="false">60</string>
+    <string name="text_view_question_2" translatable="false">TextView</string>
+    <string name="edit_text_answer_2">Write your answer</string>
+    <string name="text_view_zero_2" translatable="false">0</string>
+    <string name="button_question_2">NEXT QUESTION</string>
+    <string name="button_question_3">NEXT QUESTION</string>
+    <string name="button_ok_2" translatable="false">Ok</string>
+    <string name="button_play_again">Play again</string>
+    <string name="text_view_congratulations">Congratulations!</string>
+    <string name="text_view_result">Your score: 0</string>
+    <string name="button_exit">Exit</string>
+    <string name="text_view_congratulations_2">Congratulations!</string>
+    <string name="text_view_result_2">Your score: 0</string>
+    <string name="button_play_again_2">Play again</string>
+    <string name="button_exit_2">Exit</string>
+    <string name="image_button_add" translatable="false">Addition</string>
+    <string name="image_button_multiplication" translatable="false">Multiplication</string>
+    <string name="image_button_subtraction" translatable="false">Subtraction</string>
+    <string name="image_arrow_yellow" translatable="false">Arrow_yellow</string>
+    <string name="button_play_again_3">Play Again</string>
+    <string name="image_view_score_3" translatable="false">Score</string>
+    <string name="image_view_life_3" translatable="false">Life</string>
+    <string name="image_view_time_3" translatable="false">Time</string>
+    <string name="text_view_zero_3" translatable="false">0</string>
+    <string name="text_view_three_3" translatable="false">3</string>
+    <string name="text_view_sixty_3" translatable="false">60</string>
+    <string name="button_ok_3" translatable="false">OK</string>
+    <string name="text_congratulation">Congratulations, your answer is true.</string>
+    <string name="text_sorry">Sorry, your answer is false.</string>
+    <string name="text_time_is_up">Sorry! Time is up.</string>
+    <string name="text_congratulations_3">Congratulations, your answer is true.</string>
+    <string name="text_sorry_3">Sorry, your answer is false.</string>
+    <string name="text_time_is_up_3">Sorry! Time is up.</string>
+    <string name="text_sorry_2">Sorry, your answer is false.</string>
+    <string name="text_congratulations_2">Congratulations, your answer is true.</string>
+    <string name="text_time_is_up_2">Sorry! Time is up.</string>
+    <string name="text_your_score_2">Your score :</string>
+    <string name="text_your_score">Your score :</string>
+    <string name="text_your_score_3">Your score :</string>
+    <string name="toast_multiplication_message">Game over</string>
+    <string name="toast_addition_message">Game over</string>
+    <string name="toast_subtraction_message">Game over</string>
+
+</resources>

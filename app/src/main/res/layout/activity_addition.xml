@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_addition"
+    tools:context=".ActivityAddition">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_view_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/image_score"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_score"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/score" />
+
+        <ImageView
+            android:id="@+id/image_view_life"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/image_life"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_life"
+            app:layout_constraintEnd_toStartOf="@+id/image_view_time"
+            app:layout_constraintStart_toEndOf="@+id/image_view_score"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/heart"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/image_view_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="60dp"
+            android:contentDescription="@string/image_time"
+            app:layout_constraintBottom_toTopOf="@+id/text_view_time"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/time" />
+
+        <TextView
+            android:id="@+id/text_view_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_zero"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/image_view_score"
+            app:layout_constraintStart_toStartOf="@+id/image_view_score"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_score" />
+
+        <TextView
+            android:id="@+id/text_view_life"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_three"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/image_view_life"
+            app:layout_constraintStart_toStartOf="@+id/image_view_life"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_life" />
+
+        <TextView
+            android:id="@+id/text_view_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_sixty"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/image_view_time"
+            app:layout_constraintStart_toStartOf="@+id/image_view_time"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_time" />
+
+        <TextView
+            android:id="@+id/text_view_question"
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:gravity="center"
+            android:text="@string/text_view_question"
+            android:textColor="#55B877"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_life"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/edit_text_answer"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/edit_text_answer"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_question"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button_question"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="35dp"
+            android:backgroundTint="#55B877"
+            android:text="@string/button_question"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button_ok"
+            app:layout_constraintTop_toBottomOf="@+id/edit_text_answer"
+            app:layout_constraintVertical_bias="0.375"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button_ok"
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="14dp"
+            android:backgroundTint="#55B877"
+            android:text="@string/button_ok"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_question"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_text_answer"
+            app:layout_constraintVertical_bias="0.375"
+            tools:ignore="TextContrastCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.camarederic.entertainingmath">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_math"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_math"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EntertainingMath">
+        <activity
+            android:name=".Result3"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMultiplication"
+            android:exported="false" />
+        <activity
+            android:name=".Result2"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySubtraction"
+            android:exported="false" />
+        <activity
+            android:name=".Result"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAddition"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
